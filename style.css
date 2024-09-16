@@ -1,0 +1,283 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0;
+}
+
+.bg-img{
+    width: 100%;
+    height: 650px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#img1{
+    background-image: url("images/Image\ 1.avif");
+}
+
+#img2{
+    background-image: url("images/Image\ 2.avif");
+    }
+
+#img3{
+    background-image: url("images/Image\ 3.avif");
+    }
+
+#img4{
+    background-image: url("images/Image\ 4.avif");
+   }
+
+#img5{
+    background-image: url("images/Image\ 5.avif");
+    }
+
+#img6{
+    background-image: url("images/Image\ 6.avif");
+   }
+
+#img7{
+    background-image: url("images/Image\ 7.avif");
+    }
+
+#img8{
+    background-image: url("images/Image\ 8.avif");
+ }
+
+#img9{
+    background-image: url("images/Image\ 9.avif");
+    }
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo{
+    color: #ffff;
+    font: "Universal Sans Display";
+    position: relative;
+    right: 104px;
+    top: 24px;
+    width: 130px;
+
+}
+
+.main-menu{
+    color: #ffff;
+    position: relative;
+    top: 3px;
+    left: 185px;
+    width: 60%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.header-navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.header-navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-navbar li{
+    float: left;
+    padding: 15px;
+}
+
+.icons{
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+
+.td-icon{
+    padding: 6px;
+}
+
+.img{
+    width: 26px;
+    height: 26px;
+}
+
+.text{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.head1{
+    align-content: center;
+    font-size: 4em;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.head2{
+    align-content: center;
+    font-size: 1.8em;
+    margin: 0px;
+    border-bottom: 1.2px solid white;
+}
+
+.head3{
+    align-content: center;
+    font-size: 4em;
+    margin-bottom: 0px;
+    margin-top: 75px;
+}
+
+.head4{
+    align-content: center;
+    font-size: 1.8em;
+    margin: 0px;
+}
+
+.para{
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.para2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: 1.2px solid white;
+}
+
+#sup{
+    font-size: xx-small;
+}
+
+#empty{
+    height: 310px;
+}
+
+#empty2{
+    height: 360px;
+}
+
+#empty5{
+    height: 560px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+.order-but{    
+    background-color: #3e6ae1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+    width: 290px;
+    font-weight: 700;
+}
+
+.demo-but{    
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+    width: 290px;
+    font-weight: 700;
+}
+
+.cyber-but{    
+    background-color: #111;
+    border: none;
+    border-radius: 5px;
+    color: #a2a3a5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px;
+    width: 290px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    color: #d0d1d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: small;
+    padding-top: 20px;
+    
+}
+
+.footer-empty{
+    width: 25%px;
+}
+
+.footer-para{
+    width: 50%;
+    line-height: 1.5em;
+    font-stretch: ultra-expanded;
+    text-align: center;
+}
+
+.a{
+    color: white;
+}
+
+
+.footer-navbar ul{
+    list-style-type: none;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.footer-navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.footer-navbar li{
+    float: left;
+    padding: 10px;
+}
